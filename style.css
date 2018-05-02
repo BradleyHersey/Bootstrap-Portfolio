@@ -64,10 +64,80 @@ hr{
   background-color: dimgray;
   border-radius: 50px;
 }
+#Pfbodyj{
+  background-color: dimgray;
+  border-radius: 50px;
+  
+}
+
 img{
-  position: relative;
-  float: left;
-  margin: 20px;
-  height: 200px;
+  position: sticky;
+  border-radius: 50px;
+  margin: 10px;
+  height: 200px;  
   width: 200px;
+}
+
+#wdP{
+  
+  left:  40px;
+}
+.pp{
+  position: relative;
+  font-family: monospace;
+  font-size: 20px;
+   bottom: 80px;
+   font-weight: bolder;
+}
+#GAming{
+  
+ color: chartreuse;
+  left:  80px;
+}
+#oraceP{
+  left:60px;
+  bottom: 150px;
+  color: rgb(40, 15, 110)
+}
+#gymP{
+  left: 80px;
+  color: cyan;
+}
+#gym{
+  bottom: 200px;
+}
+#amineP{
+  left: 80px;
+  color: yellow;
+}
+#amimg{
+
+  position: relative;
+  -webkit-animation: mymove 20s linear alternate-reverse ; 
+  animation: mymove 20s linear alternate-reverse;
+}
+
+
+#WD {-webkit-animation-timing-function: linear;}
+#gaming {-webkit-animation-timing-function:linear;}
+#orace {-webkit-animation-timing-function: linear;}
+#anime {-webkit-animation-timing-function: linear;}
+#Gym {-webkit-animation-timing-function: linear;}
+
+#WD {animation-timing-function: linear;}
+#gaming {animation-timing-function:linear;}
+#orace {animation-timing-function: linear;}
+#anime {animation-timing-function: linear;}
+#Gym {animation-timing-function: linear;}
+
+
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
 }
