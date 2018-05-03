@@ -78,6 +78,7 @@ img{
   width: 200px;
 }
 
+
 #wdP{
   
   left:  40px;
@@ -116,28 +117,14 @@ img{
   -webkit-animation: mymove 20s linear alternate-reverse ; 
   animation: mymove 20s linear alternate-reverse;
 }
-
-
-#WD {-webkit-animation-timing-function: linear;}
-#gaming {-webkit-animation-timing-function:linear;}
-#orace {-webkit-animation-timing-function: linear;}
-#anime {-webkit-animation-timing-function: linear;}
-#Gym {-webkit-animation-timing-function: linear;}
-
-#WD {animation-timing-function: linear;}
-#gaming {animation-timing-function:linear;}
-#orace {animation-timing-function: linear;}
-#anime {animation-timing-function: linear;}
-#Gym {animation-timing-function: linear;}
-
-
 @-webkit-keyframes mymove {
-  from {left: 0px;}
-  to {left: 300px;}
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:200px; top:0px;}
+  50%  {color:blue; left:200px; top:150px;}
+  75%  {color:green; left:0px; top:150px;}
+  100% {color:red; left:0px; top:0px;}
 }
 
-
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 300px;}
+a{
+  margin: 5px;
 }
