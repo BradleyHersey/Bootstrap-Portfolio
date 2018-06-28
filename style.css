@@ -6,17 +6,26 @@
    float: left;
 }
 body{
-    background-image: url("https://thumbs.dreamstime.com/b/set-black-retro-comic-book-design-elements-speech-bubbles-doodle-design-short-messages-colourful-hand-painted-68368799.jpg");
+    background-image: url("images/background8.jpg"),url("images/background15.jpg");
    background-size: cover;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: hard-light; 
 }
 #indexP{
+  box-shadow:  white 100px;
+  padding: 5px;
+  border: 2px dashed gray;
   font-family: monospace ;
   font-size: 20px;
   font-weight: bold;
-  color: black;
-  text-decoration: underline black;
+  color: white;
+  text-decoration: underline rgb(63, 63, 63);
+ 
 }
 #header{
+ 
+  color: aliceblue;
   border-radius:50px;
   background-color:transparent;
   text-align: center;
@@ -24,48 +33,52 @@ body{
   font-family: monospace;
   font: bold;
   width: 400px;
-  background-color: dimgrey;
+  background-color: transparent;
   padding:20px;
+  margin-left: 20px;
 }
 hr{
   border: solid dimgray 1px;
 }
 #navBar{
+  height: 100px;
   border-radius:50px;
-  background-color: dimgrey;
+  background-color: transparent;
 }
 #indexMe{
-  background: dimgrey;
+  background: transparent;
   border-radius: 50px;
 }
 #copyRight{
   text-align: center;
   background-color: transparent;
-  color: red;
+  color: rgb(255, 0, 0);
   border: none;
 }
 #formContact{
-  background-color: dimgray;
+
   font-family: monospace;
   border-radius: 50px;
   font-weight: bold;
 }
+
 .info{
+  color: wheat;
   text-decoration: underline;
   font-size: 20px;
 }
-#submit{
+#submit,#remove{
   background-color: black;
   border: none;
   border-radius: 50px;
   margin-bottom: 20px;
 }
 #portBody{
-  background-color: dimgray;
+  background:no-repeat;
   border-radius: 50px;
 }
 #Pfbodyj{
-  background-color: dimgray;
+  background:no-repeat;
   border-radius: 50px;
   
 }
@@ -79,15 +92,19 @@ hr{
 img{
   position: sticky;
   border-radius: 50px;
-  margin: 10px;
-  height: 200px;  
-  width: 200px;
+  margin: 5px;
+  height: 150px;  
+  width: 150px;
+   /* -webkit-animation-name: image;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;  */
 }
 
 
 #wdP{
-  
-  left:  40px;
+  bottom: 40px;
+  font-size: 15px;
+  left: 15px;
 }
 .pp{
   position: relative;
@@ -96,52 +113,48 @@ img{
    bottom: 80px;
    font-weight: bolder;
 }
-#GAming{
+#gif{
   
+  bottom: 50px;
  color: chartreuse;
-  left:  80px;
+  left:  40px;
 }
 #oraceP{
-  left:60px;
-  bottom: 150px;
+  left:20px;
+  bottom: 120px;
   color: rgb(40, 15, 110)
 }
 #gymP{
-  left: 80px;
+  bottom: 50px;
+  left: 40px;
   color: cyan;
 }
 #gym{
   bottom: 200px;
 }
-#amineP{
-  left: 80px;
+#trainP{
+  bottom: 50px;
+  left: 50px;
   color: yellow;
 }
-#amimg{
-
-  position: relative;
-  -webkit-animation: mymove 20s linear alternate-reverse ; 
-  animation: mymove 20s linear alternate-reverse;
-}
-@-webkit-keyframes mymove {
-  0%   {color:red; left:0px; top:0px;}
-  25%  {color:yellow; left:5px; top:0px;}
-  50%  {color:blue; left:50px; top:30px;}
-  75%  {color:green; left:0px; top:30px;}
-  100% {color:red; left:0px; top:0px;}
+@-webkit-keyframes image{
+  from { border-color: #9a0202; -webkit-box-shadow: 0 0 20px rgb(255, 157, 0); }
+  50% { border-color: #fffb00; -webkit-box-shadow: 0 0 40px #ff0000; }
+  to { border-color: #e5ff00; -webkit-box-shadow: 0 0 20px rgb(179, 255, 0); }
 }
 
 a{
-  margin: 5px;
+  margin: 1px;
 }
 
 #CP12{
+  color: aqua;
  position: relative;
  text-align: center;
- bottom: 100px;
- left:10px ;
+ bottom: 50px;
+ right:40px ;
  font-family: monospace;
- font-size:20px;
+ font-size:15px;
 
 }
 #Cphoto{
@@ -151,7 +164,15 @@ a{
   position: relative;
   text-align: center;
   bottom: 50px;
-  left:10px ;
+  right: 40px;
   font-family: monospace;
   font-size:20px;
+}
+#ind-comment{
+  width: 50%;
+  margin: 2% 10% 1% 25%;
+  border-radius: 60px;
+  text-align: center;
+  background: transparent;
+  color: white;
 }

@@ -1,0 +1,103 @@
+.wrapper{
+    display: grid;
+    /* grid-auto-columns: 50px; */
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:minmax(50px,auto); 
+    grid-gap: 2px;
+    height: 100%;
+}
+body{
+    background-image: url("images/background8.jpg"),url("images/background15.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: hard-light; 
+}
+.Logo{
+   
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+   display: inline-block;
+   
+  }
+  .AB{
+      display: inline-block;
+      grid-column: 1/4;
+      grid-row: 1;
+  }
+ 
+#home {
+    margin: 5%;
+    align-items: center;
+ 
+    margin: 30px 10px 0px 0px;
+ } 
+#contact {
+    align-items: flex-end;
+    margin: 5%;
+    align-items: center;
+ 
+  
+    margin: 30px 10px 0px 0px;
+ } 
+
+
+#header{
+    grid-row: 3;
+    grid-column: 2/3;
+    text-align:center;
+    color: aliceblue;
+  border-radius:50px;
+  background-color:transparent;
+  text-align: center;
+  height: 100px;
+  font-family: monospace;
+  font: bold;
+  width: 400px;
+  background-color: transparent;
+  padding:20px;
+  margin-left: 20px;
+   
+}
+#image{
+    width:200px;
+    height: 200px;
+   border-radius: 100px;
+   margin: 30px;
+   float: left;
+}
+#indexMe{
+    grid-row: 3;
+    grid-column: 2/4;
+    text-decoration-line: underline;
+    font-size: 40px;
+    box-shadow:  white 100px;
+  padding: 5px;
+  border: 2px dashed gray;
+  font-family: monospace ;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline rgb(63, 63, 63);
+ 
+}
+#copyRight{
+    gap: 10px;
+    grid-row: 4;
+    grid-column: 2;
+    text-align:right;
+    background-color: transparent;
+    color: red;
+    border: none;
+  }
+@media only screen and (max-width: 700px) {
+    .AB{
+        display: inline-block;
+        grid-column: 1/4;
+        grid-row: 4;
+    }
+    
+}
+
+
