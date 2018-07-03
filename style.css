@@ -107,11 +107,18 @@ img{
   left: 15px;
 }
 .pp{
+  border: none;
   position: relative;
   font-family: monospace;
   font-size: 20px;
    bottom: 80px;
    font-weight: bolder;
+  /* -webkit-animation-name: image;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;   */
+}
+.row{
+  border: none;
 }
 #gif{
   
@@ -138,11 +145,11 @@ img{
   color: yellow;
 }
 @-webkit-keyframes image{
-  from { border-color: #9a0202; -webkit-box-shadow: 0 0 20px rgb(255, 157, 0); }
-  50% { border-color: #fffb00; -webkit-box-shadow: 0 0 40px #ff0000; }
-  to { border-color: #e5ff00; -webkit-box-shadow: 0 0 20px rgb(179, 255, 0); }
+  from { color: #9a0202; }
+  50% { color: #fffb00; }
+  to { color: #e5ff00; }
 }
-
+*box-sizing{border: none;}
 a{
   margin: 1px;
 }
@@ -175,4 +182,10 @@ a{
   text-align: center;
   background: transparent;
   color: white;
+}
+#LiriP{
+  left:60px;
+  bottom: 60px;
+  color: rgb(110, 42, 15)
+
 }
