@@ -6,11 +6,11 @@
    float: left;
 }
 body{
-    background-image: url("images/background8.jpg"),url("images/background15.jpg");
+    background-image:url("images/background15.jpg");
    background-size: cover;
    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-blend-mode: hard-light; 
+    
 }
 #indexP{
   box-shadow:  white 100px;
@@ -92,12 +92,12 @@ hr{
 img{
   position: sticky;
   border-radius: 50px;
-  margin: 5px;
+  margin: 2px;
   height: 150px;  
   width: 150px;
-   /* -webkit-animation-name: image;
+   -webkit-animation-name: image;
   -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;  */
+  -webkit-animation-iteration-count: infinite; 
 }
 
 
@@ -113,7 +113,7 @@ img{
   font-size: 20px;
    bottom: 80px;
    font-weight: bolder;
-  /* -webkit-animation-name: image;
+   /* -webkit-animation-name: image;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;   */
 }
@@ -145,12 +145,13 @@ img{
   color: yellow;
 }
 @-webkit-keyframes image{
-  from { color: #9a0202; }
-  50% { color: #fffb00; }
-  to { color: #e5ff00; }
+  from { border-color: #9a0202; -webkit-box-shadow: 0 0 20px rgb(255, 157, 0); }
+  50% { border-color: #fffb00; -webkit-box-shadow: 0 0 40px #ff0000; }
+  to { border-color: #e5ff00; -webkit-box-shadow: 0 0 20px rgb(179, 255, 0); }
 }
 *box-sizing{border: none;}
 a{
+  text-decoration: transparent none ;
   margin: 1px;
 }
 
@@ -187,5 +188,17 @@ a{
   left:60px;
   bottom: 60px;
   color: rgb(110, 42, 15)
+
+}
+#NO{
+  color: white;
+}
+#hang{
+
+}
+#hangp{
+  bottom: 50px;
+  left: 45px;
+  color: rgb(255, 0, 0);
 
 }
