@@ -90,10 +90,10 @@ hr{
 }
 
 img{
-  position: sticky;
+
   border-radius: 50px;
   margin: 2px;
-  height: 150px;  
+  height: 100px;  
   width: 150px;
    -webkit-animation-name: image;
   -webkit-animation-duration: 2s;
