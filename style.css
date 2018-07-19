@@ -131,12 +131,13 @@ img{
   bottom: 120px;
   color: rgb(40, 15, 110)
 }
-#gymP{
+#bamP {
   bottom: 50px;
   left: 40px;
-  color: cyan;
+  color: rgb(0, 0, 0);
 }
-#gym{
+
+#bam {
   bottom: 200px;
 }
 #trainP{
