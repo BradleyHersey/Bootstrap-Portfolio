@@ -1,182 +1,208 @@
-#image{
-    width:200px;
-    height: 200px;
-   border-radius: 100px;
-   margin: 30px;
-   float: left;
+#image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 30px;
+  float: left;
 }
-body{
-    background-image:url("images/background15.jpg");
-   background-size: cover;
-   background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+
+body {
+  background-image: url("images/background15.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-#indexP{
-  box-shadow:  white 100px;
+
+#indexP {
+  box-shadow: white 100px;
   padding: 5px;
   border: 2px dashed gray;
-  font-family: monospace ;
+  font-family: monospace;
   font-size: 20px;
   font-weight: bold;
   color: white;
   text-decoration: underline rgb(63, 63, 63);
- 
 }
-#header{
- 
+
+#header {
   color: aliceblue;
-  border-radius:50px;
-  background-color:transparent;
+  border-radius: 50px;
+  background-color: transparent;
   text-align: center;
   height: 100px;
   font-family: monospace;
   font: bold;
   width: 400px;
   background-color: transparent;
-  padding:20px;
+  padding: 20px;
   margin-left: 20px;
 }
-hr{
+
+hr {
   border: solid dimgray 1px;
 }
-#navBar{
+
+#navBar {
   height: 100px;
-  border-radius:50px;
+  border-radius: 50px;
   background-color: transparent;
 }
-#indexMe{
+
+#indexMe {
   background: transparent;
   border-radius: 50px;
 }
-#copyRight{
+
+#copyRight {
   text-align: center;
   background-color: transparent;
   color: rgb(255, 0, 0);
   border: none;
 }
-#formContact{
 
+#formContact {
   font-family: monospace;
   border-radius: 50px;
   font-weight: bold;
 }
 
-.info{
+.info {
   color: wheat;
   text-decoration: underline;
   font-size: 20px;
 }
-#submit,#remove{
+
+#submit,
+#remove {
   background-color: black;
   border: none;
   border-radius: 50px;
   margin-bottom: 20px;
 }
-#portBody{
-  background:no-repeat;
+
+#portBody {
+  background: no-repeat;
   border-radius: 50px;
 }
-#Pfbodyj{
-  background:no-repeat;
+
+#Pfbodyj {
+  background: no-repeat;
   border-radius: 50px;
-  
 }
-.Logo{
+
+.Logo {
   border-radius: 50px;
   height: 50px;
   width: 50px;
- 
 }
 
-img{
+img {
   position: sticky;
   border-radius: 50px;
   margin: 2px;
-  height: 150px;  
+  height: 150px;
   width: 150px;
-   -webkit-animation-name: image;
+  -webkit-animation-name: image;
   -webkit-animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-iteration-count: infinite;
 }
 
-
-#wdP{
+#wdP {
   bottom: 40px;
   font-size: 15px;
   left: 15px;
 }
-.pp{
+
+.pp {
   border: none;
   position: relative;
   font-family: monospace;
   font-size: 20px;
-   bottom: 80px;
-   font-weight: bolder;
-   /* -webkit-animation-name: image;
+  bottom: 80px;
+  font-weight: bolder;
+  /* -webkit-animation-name: image;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;   */
 }
-.row{
+
+.row {
   border: none;
 }
-#gif{
-  
+
+#gif {
   bottom: 50px;
- color: chartreuse;
-  left:  40px;
+  color: chartreuse;
+  left: 40px;
 }
-#oraceP{
-  left:20px;
+
+#oraceP {
+  left: 20px;
   bottom: 120px;
   color: rgb(40, 15, 110)
 }
-#gymP{
+
+#bamP {
   bottom: 50px;
   left: 40px;
-  color: cyan;
+  color: rgb(0, 0, 0);
 }
-#gym{
+
+#bam {
   bottom: 200px;
 }
-#trainP{
+
+#trainP {
   bottom: 50px;
   left: 50px;
   color: yellow;
 }
-@-webkit-keyframes image{
-  from { border-color: #9a0202; -webkit-box-shadow: 0 0 20px rgb(255, 157, 0); }
-  50% { border-color: #fffb00; -webkit-box-shadow: 0 0 40px #ff0000; }
-  to { border-color: #e5ff00; -webkit-box-shadow: 0 0 20px rgb(179, 255, 0); }
+
+@-webkit-keyframes image {
+  from {
+    border-color: #9a0202;
+    -webkit-box-shadow: 0 0 20px rgb(255, 157, 0);
+  }
+  50% {
+    border-color: #fffb00;
+    -webkit-box-shadow: 0 0 40px #ff0000;
+  }
+  to {
+    border-color: #e5ff00;
+    -webkit-box-shadow: 0 0 20px rgb(179, 255, 0);
+  }
 }
-*box-sizing{border: none;}
-a{
-  text-decoration: transparent none ;
+
+*box-sizing {
+  border: none;
+}
+
+a {
+  text-decoration: transparent none;
   margin: 1px;
 }
 
-#CP12{
+#CP12 {
   color: aqua;
- position: relative;
- 
- bottom: 50px;
- left:30px ;
- font-family: monospace;
- font-size:15px;
-
-}
-#Cphoto{
   position: relative;
-}
-#TG{
-  position: relative;
-  
   bottom: 50px;
- left: 30px;
+  left: 30px;
   font-family: monospace;
-  font-size:20px;
+  font-size: 15px;
 }
-#ind-comment{
+
+#Cphoto {
+  position: relative;
+}
+
+#TG {
+  position: relative;
+  bottom: 50px;
+  left: 30px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#ind-comment {
   width: 50%;
   margin: 2% 10% 1% 25%;
   border-radius: 60px;
@@ -184,21 +210,21 @@ a{
   background: transparent;
   color: white;
 }
-#LiriP{
-  left:60px;
+
+#LiriP {
+  left: 60px;
   bottom: 60px;
   color: rgb(110, 42, 15)
-
 }
-#NO{
+
+#NO {
   color: white;
 }
-#hang{
 
-}
-#hangp{
+#hang {}
+
+#hangp {
   bottom: 50px;
   left: 45px;
   color: rgb(255, 0, 0);
-
 }
