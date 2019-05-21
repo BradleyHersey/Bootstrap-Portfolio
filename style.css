@@ -5,6 +5,9 @@
   margin: 30px;
   float: left;
 }
+#Email{
+color:white;
+}
 
 body {
   background-image: url("images/background15.jpg");
